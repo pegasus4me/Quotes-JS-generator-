@@ -1,0 +1,96 @@
+@font-face {
+    font-family: KyivType Sans Med;
+    src: url(/fonts/kyivtype-sans-medium.ttf) format('truetype');
+}   
+
+@font-face {
+    font-family: KyivType Sans regular;
+    src: url(/fonts/KyivType-Sans-Regular-.ttf) format('truetype');
+}
+@font-face {
+    font-family: KyivType Sans l;
+    src: url(/fonts/kyivtype-sans-light.ttf) format('truetype');
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+/* GENERAL STYLES  */
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  KyivType Sans regular, sans-serif;
+    
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   text-align: center;
+   background: url(img.jpg)  no-repeat center center /cover;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    width: 270px;
+    border-color: white;
+    border-radius: 3px;
+    
+}
+
+
+.container .header h2  {
+
+    font-weight:lighter;
+
+}
+
+/* MAIN CONTENT START */
+.main-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 40px;
+    height:auto;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 53px black;
+}
+
+.text-area{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5rem;
+}
+
+.person-area{
+    padding-top: 10px;
+    color: rgb(255, 0, 0);
+    font-weight:normal;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.btn #Tbtn{
+    border-style: none;
+    height: 40px;
+    width: 90px;
+    background-color: #1F1F1F ;
+    color: white;
+    border-radius: 7px;
+}
